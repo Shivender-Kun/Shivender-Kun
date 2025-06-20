@@ -13,9 +13,9 @@ I'm passionate about writing clean code, solving real-world problems, and contin
 
 ### 🚀 Tech Stack
 
-- **Frontend:** React.js, Next.js, Redux Toolkit, TypeScript, Tailwind, Shadcn UI  
-- **Backend:** Node.js, Express.js, MongoDB, JWT, REST APIs  
-- **DevOps / Cloud:** AWS (EC2, ECS, S3, CloudFront), GitHub Actions, Vercel  
+- **Frontend:** React.js, Next.js, Redux Toolkit, TypeScript, Tailwind, Shadcn UI
+- **Backend:** Node.js, Express.js, MongoDB, JWT, REST APIs
+- **DevOps / Cloud:** AWS (EC2, ECS, S3, CloudFront), GitHub Actions, Vercel
 - **Others:** OAuth2, Stripe, Chart.js, Webpack, Socket.io
 
 ---
@@ -23,16 +23,18 @@ I'm passionate about writing clean code, solving real-world problems, and contin
 ### 🧩 Featured Projects
 
 #### 🗓️ [ShiftBOOKD](https://shiftbookd.com)
+
 A referral-based appointment scheduling platform built with React, Node.js, and Stripe. Launched in the UK, USA, AUS, and Canada.
 
-- Calendar management, deposits, reviews, and messaging  
-- Stripe payments and role-based OAuth authentication  
+- Calendar management, deposits, reviews, and messaging
+- Stripe payments and role-based OAuth authentication
 - AWS-powered deployment with CI/CD automation
 
 #### 📝 [Aetherpad](https://notes.shivender.pro)
+
 A note-taking platform built with Next.js, MongoDB, and Express.
 
-- Features: JWT auth, pinning, soft delete, password reset via Nodemailer  
+- Features: JWT auth, pinning, soft delete, password reset via Nodemailer
 - Real-time updates and scalable MongoDB aggregation pipelines
 
 ---

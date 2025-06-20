@@ -33,7 +33,7 @@
 ---
 
 ### 🔎 Currently Looking For
-- Full-time roles as a **Full-Stack** or **Frontend Engineer**
+- Full-time roles as a **Full-Stack** or **Full Stack Engineer**
 - Open to **remote** and **hybrid** opportunities
 
 ---

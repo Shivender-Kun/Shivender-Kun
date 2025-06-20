@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaSass,
   FaStripe,
-  FaJs,
+  // FaJs,
   FaCode,
 } from "react-icons/fa";
 import {

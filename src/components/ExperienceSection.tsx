@@ -5,26 +5,29 @@ import { experience } from "@/data/experience";
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.2 }}
+      id="experience"
+      className="py-20 px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-5xl mx-auto space-y-12">
         <motion.h2
           className="text-3xl sm:text-4xl font-bold text-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
+          // viewport={{ once: true }}
         >
           Experience
         </motion.h2>
 
         <div className="space-y-8">
           {experience.map((exp, index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.6 }}
-              viewport={{ once: true }}
+              // viewport={{ once: true }}
               className="border border-border shadow-sm rounded-xl p-6 transition hover:shadow-md card-style"
             >
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
@@ -55,10 +58,10 @@ export default function ExperienceSection() {
                   </span>
                 ))}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

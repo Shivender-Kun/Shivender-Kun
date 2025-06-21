@@ -10,6 +10,25 @@ import { Moon, Sun } from "lucide-react";
 export default function Hero() {
   const { theme, setTheme } = useTheme();
 
+  const words = [
+    "H",
+    "i",
+    " ",
+    "I",
+    "'",
+    "m",
+    " ",
+    "S",
+    "h",
+    "i",
+    "v",
+    "e",
+    "n",
+    "d",
+    "e",
+    "r",
+  ];
+
   return (
     <section className="min-h-[100vh] w-full flex flex-col items-center justify-center text-center px-4 space-y-6 overflow-hidden">
       {/* Theme Toggle */}
@@ -28,14 +47,19 @@ export default function Hero() {
       </div>
 
       {/* Title */}
-      <motion.h1
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="text-5xl sm:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500"
-      >
-        {`Hi, I'm Shivender`}
-      </motion.h1>
+      <div className="text-center mt-20 text-5xl sm:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
+        {words.map((word, i) => (
+          <motion.span
+            key={i}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: i * 0.1, duration: 1 }}
+            className="inline-block mr-2"
+          >
+            {word}
+          </motion.span>
+        ))}
+      </div>
 
       {/* Subtitle */}
       <motion.p
@@ -46,7 +70,7 @@ export default function Hero() {
       >
         Full-stack developer with 3+ years of experience building scalable,
         high-performance apps using{" "}
-        <span className="font-semibold text-foreground">React</span>,{" "}
+        <span className="font-semibold text-foreground">React.js</span>,{" "}
         <span className="font-semibold text-foreground">Next.js</span>,{" "}
         <span className="font-semibold text-foreground">Node.js</span> and{" "}
         <span className="font-semibold text-foreground">AWS</span>. I craft

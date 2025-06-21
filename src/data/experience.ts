@@ -2,7 +2,7 @@
 
 export const experience = [
   {
-    title: "Frontend Developer",
+    title: "Software Developer",
     company: "Appknit",
     location: "Chandigarh, India",
     duration: "Jul 2021 – Present",
@@ -12,13 +12,16 @@ export const experience = [
       "Led the migration of legacy components to reusable, accessible Shadcn UI design system elements.",
       "Optimized performance by 30% through code-splitting, lazy loading, and reduced bundle size.",
       "Mentored junior developers, assisting with onboarding and reviewing production code.",
-      "Managed deployments using AWS ECS, S3, and CloudFront with CI/CD pipelines via GitHub Actions.",
+      "Managed deployments using AWS ECS, S3, and CloudFront via GitHub Actions.",
     ],
     tech: [
       "React",
       "Next.js",
-      "Shadcn UI",
+      "Node.js",
+      "Express.js",
       "TypeScript",
+      "MongoDB",
+      "Shadcn UI",
       "Stripe",
       "OAuth",
       "AWS",
@@ -31,21 +34,17 @@ export const experience = [
     location: "Noida, India",
     duration: "Jan 2021 – Jun 2021",
     responsibilities: [
-      "Built modular REST APIs with Node.js and Express, integrating Joi for request validation and Google Dialogflow for chatbot automation.",
+      "Built modular REST APIs with Node.js and Express.js, integrating Joi for request validation and Google Dialogflow for chatbot automation.",
       "Designed a COVID-19 data dashboard using React, Chart.js, and Mapbox GL with real-time data visualizations and filters.",
       "Collaborated in cross-functional teams during agile sprints, contributing to UI/UX improvements and backend functionality.",
     ],
     tech: [
-      "React",
+      "React.js",
       "Node.js",
-      "Express",
+      "Express.js",
       "Chart.js",
       "Mapbox GL",
-      "Joi",
       "Dialogflow",
-      "REST APIs",
-      "Agile",
-      "Git",
     ],
   },
 ];

@@ -1,4 +1,7 @@
 import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
   FaReact,
   FaNodeJs,
   FaAws,
@@ -6,7 +9,6 @@ import {
   FaGithub,
   FaSass,
   FaStripe,
-  // FaJs,
   FaCode,
 } from "react-icons/fa";
 import {
@@ -26,6 +28,9 @@ import { HiOutlineServer } from "react-icons/hi";
 import { JSX } from "react";
 
 const skillIcons: Record<string, JSX.Element> = {
+  HTML5: <FaHtml5 />,
+  CSS3: <FaCss3Alt />,
+  Javascript: <FaJs />,
   "React.js": <FaReact />,
   "Next.js": <SiNextdotjs />,
   "Shadcn UI": <SiTailwindcss />,
@@ -37,7 +42,7 @@ const skillIcons: Record<string, JSX.Element> = {
   "Express.js": <SiExpress />,
   MongoDB: <SiMongodb />,
   "REST APIs": <MdHttp />,
-  "AWS EC2": <FaAws />,
+  Amplify: <FaAws />,
   S3: <FaAws />,
   CloudFront: <FaAws />,
   ECS: <FaAws />,
@@ -48,7 +53,7 @@ const skillIcons: Record<string, JSX.Element> = {
   "VS Code": <FaCode />, // ✅ REPLACED
   Jira: <SiJira />,
   OAuth: <BsFillLockFill />,
-  "Stripe Integration": <FaStripe />,
+  Stripe: <FaStripe />,
   "CI/CD": <HiOutlineServer />,
   "Socket.io": <SiSocketdotio />,
 };

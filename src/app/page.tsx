@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import ExperienceSection from "@/components/ExperienceSection";
 import ProjectCard from "@/components/ProjectCard";
 import SkillGroup from "@/components/SkillGroup";
+import { Button } from "@/components/ui/button";
 import Section from "@/components/Section";
-import Hero from "@/components/Hero";
-import ExperienceSection from "@/components/ExperienceSection";
-import { skills } from "@/data/skills";
 import { projects } from "@/data/projects";
+import { skills } from "@/data/skills";
+import Hero from "@/components/Hero";
 
 export default function HomePage() {
   return (

@@ -47,7 +47,7 @@ export default function Hero() {
       </div>
 
       {/* Title */}
-      <div className="text-center mt-20 text-5xl sm:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
+      <div className="text-center mt-20 text-3xl sm:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
         {words.map((word, i) => (
           <motion.span
             key={i}

@@ -9,7 +9,7 @@ import Hero from "@/components/Hero";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen h-screen overflow-y-scroll snap-y snap-mandatory px-4 py-12 sm:px-8 bg-gradient-to-b from-white via-gray-100 to-white text-black dark:text-white dark:bg-gradient-to-b dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 transition-colors duration-300">
+    <main className="min-h-screen h-screen overflow-y-scroll snap-y snap-mandatory px-4 sm:px-8 bg-gradient-to-b from-white via-gray-100 to-white text-black dark:text-white dark:bg-gradient-to-b dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 transition-colors duration-300">
       <div className="max-w-5xl mx-auto space-y-20">
         {/* Hero */}
         <Hero />

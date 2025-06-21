@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shivender.pro/sitemap.xml
-Host: https://shivender.pro
+Sitemap: https://www.shivender.pro/sitemap.xml
+Host: https://www.shivender.pro

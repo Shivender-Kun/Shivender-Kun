@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Full-stack software engineer building modern web applications using React, Next.js, Node.js, and TypeScript.",
   applicationName: "SK Portfolio",
-  authors: [{ name: "Shivender Kumar", url: "https://shivender.pro" }],
+  authors: [{ name: "Shivender Kumar", url: "https://www.shivender.pro" }],
   creator: "Shivender Kumar",
   keywords: [
     "Shivender Kumar",

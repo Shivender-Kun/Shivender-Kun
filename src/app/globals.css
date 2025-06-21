@@ -1,17 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-.gradient-text-purple {
-  background: linear-gradient(90deg, #bf5fff, #ff5fda);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.gradient-text-pink {
-  background: linear-gradient(90deg, #ff5f7e, #ffbf5f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .card-style {
   @apply rounded-xl p-6 shadow-md bg-white dark:bg-[#1e293b] text-black dark:text-white;
 }

@@ -30,7 +30,7 @@ A referral-based appointment scheduling platform built with React, Node.js, and 
 - Stripe payments and role-based OAuth authentication
 - AWS-powered deployment with CI/CD automation
 
-#### 📝 [Aetherpad](https://notes.shivender.pro)
+#### 📝 [Aetherpad](https://aetherpad.shivender.pro)
 
 A note-taking platform built with Next.js, MongoDB, and Express.
 
@@ -50,7 +50,7 @@ A note-taking platform built with Next.js, MongoDB, and Express.
 
 - 📧 [shivenderkumar761@gmail.com](mailto:shivenderkumar761@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/shivender-kun/)
-- 🌍 Portfolio: Coming Soon
+- 🌍 [Portfolio](https://www.shivender.pro/)
 
 ---
 
@@ -92,5 +92,3 @@ A note-taking platform built with Next.js, MongoDB, and Express.
 ### 🧮 Profile Visitor Count
 
 [![](https://visitcount.itsvg.in/api?id=Shivender-Kun&icon=0&color=4)](https://visitcount.itsvg.in)
-
-<!-- Generated using GPRM: https://gprm.itsvg.in -->

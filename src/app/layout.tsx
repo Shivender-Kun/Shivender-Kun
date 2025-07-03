@@ -5,7 +5,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ScrollToTop from "@/components/ui/scrollToTop";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap", // ✅ Avoids FOIT (Flash of Invisible Text)
+  variable: "--font-inter", // (Optional) If using as CSS variable
+  weight: ["400", "500", "600", "700"],
+  preload: true,
+});
 
 export const metadata: Metadata = {
   title: "Shivender Kumar | Software Engineer",
@@ -41,6 +47,32 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   manifest: "/manifest.json",
+  openGraph: {
+    title: "Shivender Kumar | Software Engineer",
+    description:
+      "Explore the portfolio of Shivender Kumar — a full-stack engineer building scalable web applications with React, Next.js, Node.js, and AWS.",
+    url: "https://www.shivender.pro",
+    siteName: "Shivender Portfolio",
+    images: [
+      {
+        url: "/og.webp",
+        width: 1024,
+        height: 1024,
+        alt: "Shivender Kumar | Software Engineer Portfolio",
+        type: "image/webp",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shivender Kumar | Software Engineer",
+    description:
+      "Full-stack engineer specializing in React, Next.js, Node.js and TypeScript. Explore my portfolio.",
+    images: ["/og.webp"],
+    // creator: "@shivender_kumar", // Optional: if you have a Twitter handle
+  },
 };
 
 export const viewport = {

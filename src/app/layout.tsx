@@ -1,7 +1,8 @@
-import "./globals.css";
-import type { Metadata } from "next";
+import ThemeToggle from "@/components/ui/themeToggle";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
+import type { Metadata } from "next";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,17 +23,31 @@ export const metadata: Metadata = {
     "TypeScript",
     "Software Engineer",
   ],
-  themeColor: "#0b3954",
-  colorScheme: "dark",
   icons: {
     icon: [
-      { url: "/sk_icons/favicon_32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/sk_icons/favicon_16x16.png", sizes: "16x16", type: "image/png" },
+      {
+        url: "/icons/favicon_192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: "/icons/favicon_300x300.png",
+        sizes: "300x300",
+        type: "image/png",
+      },
     ],
-    apple: "/sk_icons/apple-touch-icon.png",
-    shortcut: "/sk_icons/favicon.ico",
+    apple: "/apple-icon.png",
+    shortcut: "/favicon.ico",
   },
-  // manifest: "/manifest.json",
+  manifest: "/manifest.json",
+};
+
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b3954" }, // Dark blue
+  ],
+  colorScheme: "light dark",
 };
 
 export default function RootLayout({
@@ -42,9 +57,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} scroll-smooth`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
+          <ThemeToggle />
         </ThemeProvider>
       </body>
     </html>

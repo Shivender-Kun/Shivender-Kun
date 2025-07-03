@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Aetherpad",
-    link: "https://notes.shivender.pro",
+    link: "https://aetherpad.shivender.pro",
     description:
       "Minimalist full-stack notes app built with Next.js and MongoDB. Includes JWT auth, real-time sync, pinning, archiving, and password recovery.",
     stack: ["Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "JWT"],

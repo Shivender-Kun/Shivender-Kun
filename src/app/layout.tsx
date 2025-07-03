@@ -3,6 +3,7 @@ import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollToTop from "@/components/ui/scrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,6 +61,7 @@ export default function RootLayout({
       <body className={`${inter.className} scroll-smooth`}>
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
+          <ScrollToTop />
           <ThemeToggle />
         </ThemeProvider>
       </body>

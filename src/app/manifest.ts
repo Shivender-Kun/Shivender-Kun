@@ -7,8 +7,8 @@ const manifest = (): MetadataRoute.Manifest => ({
   id: "/",
   display: "standalone",
   display_override: ["window-controls-overlay", "fullscreen", "minimal-ui"],
-  background_color: "#0b3954",
-  theme_color: "#0b3954",
+  background_color: "#080f1d",
+  theme_color: "#080f1d",
   description: "Portfolio of Shivender Kumar - Full-stack developer.",
   icons: [
     { src: "/favicon.ico", type: "image/x-icon", sizes: "32x32" },

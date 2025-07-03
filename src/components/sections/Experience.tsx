@@ -10,7 +10,7 @@ const Experience = () => {
       initial={{ opacity: 0, y: 100 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="py-20 px-4 sm:px-6 lg:px-8 sm:snap-start min-h-screen"
+      className="px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center sm:snap-start min-h-screen"
     >
       <div className="max-w-5xl mx-auto space-y-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-center">

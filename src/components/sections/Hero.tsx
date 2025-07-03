@@ -1,15 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-import { useTheme } from "next-themes";
-import { Moon, Sun } from "lucide-react";
+import { HiOutlineMail } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 export default function Hero() {
-  const { theme, setTheme } = useTheme();
-
   const words = [
     "H",
     "i",
@@ -30,33 +26,22 @@ export default function Hero() {
   ];
 
   return (
-    <section className="min-h-[100vh] w-full flex flex-col items-center justify-center text-center px-4 space-y-6 overflow-hidden">
-      {/* Theme Toggle */}
-      <div className="absolute bottom-2 right-6 z-10">
-        <Button
-          variant="outline"
-          size="icon"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-        >
-          {theme === "dark" ? (
-            <Sun className="w-5 h-5" />
-          ) : (
-            <Moon className="w-5 h-5" />
-          )}
-        </Button>
-      </div>
-
+    <section
+      className="min-h-screen w-full flex flex-col items-center justify-center text-center px-4 space-y-6 overflow-hidden sm:snap-start"
+      id="hero"
+    >
       {/* Title */}
       <div className="text-center mt-20 text-3xl sm:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
         {words.map((word, i) => (
           <motion.span
             key={i}
+            className="inline-block"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.1, duration: 1 }}
-            className="inline-block mr-2"
           >
-            {word}
+            {word === " " ? "\u00A0" : word}{" "}
+            {/* Non-breaking space for empty string */}
           </motion.span>
         ))}
       </div>

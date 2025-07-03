@@ -5,7 +5,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ScrollToTop from "@/components/ui/scrollToTop";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap", // ✅ Avoids FOIT (Flash of Invisible Text)
+  variable: "--font-inter", // (Optional) If using as CSS variable
+  weight: ["400", "500", "600", "700"],
+  preload: true,
+});
 
 export const metadata: Metadata = {
   title: "Shivender Kumar | Software Engineer",

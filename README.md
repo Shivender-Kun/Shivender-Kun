@@ -13,10 +13,11 @@ I'm passionate about writing clean code, solving real-world problems, and contin
 
 ### 🚀 Tech Stack
 
-- **Frontend:** React.js, Next.js, Redux Toolkit, TypeScript, Tailwind, Shadcn UI
-- **Backend:** Node.js, Express.js, MongoDB, JWT, REST APIs
+- **Languages:** HTML5, CSS3, JavaScript, TypeScript
+- **Frontend:** React.js, Next.js, Redux Toolkit, Tailwind, Webpack
+- **Backend:** Node.js, Express.js, MongoDB
+- **UI Library:** ShadCn, Material UI
 - **DevOps / Cloud:** AWS (EC2, ECS, S3, CloudFront), GitHub Actions, Vercel
-- **Others:** OAuth2, Stripe, Chart.js, Webpack, Socket.io
 
 ---
 
@@ -34,7 +35,7 @@ A referral-based appointment scheduling platform built with React, Node.js, and 
 
 A note-taking platform built with Next.js, MongoDB, and Express.
 
-- Features: JWT auth, pinning, soft delete, password reset via Nodemailer
+- Features: NextAuth, Filtering, Rich text editing and basic functionality like pin/unpin, archive/unarchive, delete/recover notes.
 - Real-time updates and scalable MongoDB aggregation pipelines
 
 ---
@@ -57,7 +58,7 @@ A note-taking platform built with Next.js, MongoDB, and Express.
 ## 🌐 Socials
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shivender-kun)
-[![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shivenderkumar761@gmail.com)
+[![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kumar.shivender@zohomail.in)
 
 ---
 
@@ -86,9 +87,3 @@ A note-taking platform built with Next.js, MongoDB, and Express.
 ### ✍️ Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-### 🧮 Profile Visitor Count
-
-[![](https://visitcount.itsvg.in/api?id=Shivender-Kun&icon=0&color=4)](https://visitcount.itsvg.in)

@@ -41,25 +41,23 @@ export default function Hero() {
             transition={{ delay: i * 0.1, duration: 1 }}
           >
             {word === " " ? "\u00A0" : word}{" "}
-            {/* Non-breaking space for empty string */}
           </motion.span>
         ))}
       </div>
 
-      {/* Subtitle */}
+      {/* Subtitle with resume profile summary */}
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.25 }}
-        className="text-lg sm:text-xl text-muted-foreground max-w-2xl"
+        className="text-lg sm:text-xl text-muted-foreground max-w-3xl"
       >
-        Full-stack developer with 3+ years of experience building scalable,
-        high-performance apps using{" "}
-        <span className="font-semibold text-foreground">React.js</span>,{" "}
-        <span className="font-semibold text-foreground">Next.js</span>,{" "}
-        <span className="font-semibold text-foreground">Node.js</span> and{" "}
-        <span className="font-semibold text-foreground">AWS</span>. I craft
-        clean, fast, and impactful web experiences.
+        Dedicated and adaptable web developer with 3+ years of experience
+        delivering scalable, high-performance applications. Recognized for
+        strong problem-solving skills, effective collaboration, clear
+        communication, and attention to detail. Passionate about driving
+        business outcomes through modern web technologies and innovative
+        solutions.
       </motion.p>
 
       {/* CTA Buttons */}
@@ -71,7 +69,7 @@ export default function Hero() {
       >
         <Button variant="outline" asChild>
           <a
-            href="mailto:shivenderkumar761@gmail.com"
+            href="mailto:kumar.shivender@zohomail.in"
             className="flex items-center gap-2"
           >
             <HiOutlineMail className="w-4 h-4" />

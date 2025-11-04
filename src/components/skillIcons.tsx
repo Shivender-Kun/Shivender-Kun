@@ -8,7 +8,6 @@ import {
   FaGitAlt,
   FaGithub,
   FaSass,
-  FaStripe,
   FaCode,
 } from "react-icons/fa";
 import {

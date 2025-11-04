@@ -7,8 +7,8 @@ import ScrollToTop from "@/components/ui/scrollToTop";
 
 const inter = Inter({
   subsets: ["latin"],
-  display: "swap", // ✅ Avoids FOIT (Flash of Invisible Text)
-  variable: "--font-inter", // (Optional) If using as CSS variable
+  display: "swap",
+  variable: "--font-inter",
   weight: ["400", "500", "600", "700"],
   preload: true,
 });
@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Shivender Kumar",
     "Portfolio",
     "Full Stack Developer",
+    "Frontend Developer",
     "Next.js",
     "React",
     "NodeJs",
@@ -71,7 +72,6 @@ export const metadata: Metadata = {
     description:
       "Full-stack engineer specializing in React, Next.js, NodeJs and TypeScript. Explore my portfolio.",
     images: ["/og.webp"],
-    // creator: "@shivender_kumar", // Optional: if you have a Twitter handle
   },
 };
 

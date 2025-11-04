@@ -1,20 +1,21 @@
 <h1 align="center">Hi 👋, I'm Shivender Kumar</h1>
-<h3 align="center">Full-Stack Developer | React.js, Next.js, Node.js, AWS</h3>
+<h3 align="center">Full-Stack Developer | React, Next.js, NodeJs, AWS</h3>
 
 ---
 
 ### 💫 About Me
 
-I’m a self-taught full-stack developer with 3+ years of experience delivering scalable, high-performance applications. Recognized for strong problem-solving skills, effective collaboration, clear communication, and attention to detail. Passionate about driving business outcomes through modern web technologies, continuous learning, and innovative solutions.
+Dedicated and adaptable web developer with 3+ years of experience delivering scalable, high-performance applications.
+Recognized for strong problem-solving skills, effective collaboration, clear communication, and attention to detail. Passionate about driving business outcomes through modern web technologies, continuous learning, and innovative solutions.
 
 ---
 
 ### 🚀 Tech Stack
 
 - **Languages:** HTML, CSS, JavaScript, TypeScript
-- **Frontend:** React.js, Next.js, Redux Toolkit, Webpack
-- **Backend:** Node.js, Express, MongoDB
-- **DevOps / Cloud:** AWS, Docker, CICD
+- **Frontend:** React, Next.js, Redux Toolkit, Webpack
+- **Backend:** NodeJs, Express, MongoDB
+- **DevOps / Cloud:** AWS, Docker, CI/CD
 - **UI Libraries:** ShadCn, Material UI
 - **Tools:** Git, GitHub, VS Code, Postman, JMeter
 
@@ -28,13 +29,13 @@ Referral-based appointment scheduling platform launched across the UK, USA, Aust
 
 - Calendar management, booking flows, deposits, reviews, messaging
 - Secure transaction tracking
-- AWS-powered deployment on ECS, S3, CloudFront with CICD pipelines
+- AWS-powered deployment on ECS, S3, CloudFront with CI/CD pipelines
 
 #### 📝 [Aetherpad](https://aetherpad.shivender.pro)
 
 Full-stack notes app with rich-text editing, filtering, pin/unpin, delete, and password recovery features.
 
-- Built with Next.js, Node.js, and MongoDB
+- Built with Next.js, NodeJs, and MongoDB
 - Secure authentication and authorization with NextAuth
 - Optimized with MongoDB aggregation and pagination
 
@@ -42,7 +43,7 @@ Full-stack notes app with rich-text editing, filtering, pin/unpin, delete, and p
 
 ### 🔎 Currently Looking For
 
-- Full-time roles as a **Full-Stack Developer** or **Frontend Engineer**
+- Full-time roles as a **Full-Stack Developer** or **Frontend Developer**
 - Open to **remote** and **hybrid** opportunities
 
 ---
@@ -70,7 +71,7 @@ Full-stack notes app with rich-text editing, filtering, pin/unpin, delete, and p
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![NodeJs](https://img.shields.io/badge/nodeJs-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![AWS](https://img.shields.io/badge/aws-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 

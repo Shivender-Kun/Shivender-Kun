@@ -12,7 +12,7 @@ const CTA = () => {
           I’m open to full-time, freelance, or remote collaboration.
         </p>
         <Button variant="outline" asChild>
-          <a href="mailto:shivenderkumar761@gmail.com">Start a conversation</a>
+          <a href="mailto:kumar.shivender@zohomail.in">Start a conversation</a>
         </Button>
       </div>
     </Section>

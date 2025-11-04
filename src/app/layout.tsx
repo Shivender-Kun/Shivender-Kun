@@ -16,7 +16,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Shivender Kumar | Software Engineer",
   description:
-    "Full-stack software engineer building modern web applications using React, Next.js, Node.js, and TypeScript.",
+    "Full-stack software engineer building modern web applications using React, Next.js, NodeJs, and TypeScript.",
   applicationName: "SK Portfolio",
   authors: [{ name: "Shivender Kumar", url: "https://www.shivender.pro" }],
   creator: "Shivender Kumar",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Full Stack Developer",
     "Next.js",
     "React",
-    "Node.js",
+    "NodeJs",
     "TypeScript",
     "Software Engineer",
   ],
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shivender Kumar | Software Engineer",
     description:
-      "Explore the portfolio of Shivender Kumar — a full-stack engineer building scalable web applications with React, Next.js, Node.js, and AWS.",
+      "Explore the portfolio of Shivender Kumar — a full-stack engineer building scalable web applications with React, Next.js, NodeJs, and AWS.",
     url: "https://www.shivender.pro",
     siteName: "Shivender Portfolio",
     images: [
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shivender Kumar | Software Engineer",
     description:
-      "Full-stack engineer specializing in React, Next.js, Node.js and TypeScript. Explore my portfolio.",
+      "Full-stack engineer specializing in React, Next.js, NodeJs and TypeScript. Explore my portfolio.",
     images: ["/og.webp"],
     // creator: "@shivender_kumar", // Optional: if you have a Twitter handle
   },

@@ -31,7 +31,7 @@ Referral-based appointment scheduling platform launched across the UK, USA, Aust
 - Secure transaction tracking
 - AWS-powered deployment on ECS, S3, CloudFront with CI/CD pipelines
 
-#### 📝 [Aetherpad](https://aetherpad.shivender.pro)
+#### 📝 [Aetherpad](https://aetherpad.arkyven.dev)
 
 Full-stack notes app with rich-text editing, filtering, pin/unpin, delete, and password recovery features.
 
